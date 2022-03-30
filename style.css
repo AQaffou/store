@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+body{
+    background-color: #e5e5e5;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    position: relative;
+}
+.logo-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #518fd8;
+    font-size: 20px;
+    position: absolute;
+    left: 1.9rem;
+    top: 0.5rem;
+    width: max-content;
+    word-spacing: 0.25rem;
+}
+span{
+    color: #f9f9f9;
+}
+.search-bar{
+    display: flex;
+}
+#search1{
+    width: 35rem;
+    height: 48px;
+    border-color: #518fd8;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border-width: 1px;
+}
+.search-button{
+    display: flex;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    left: 0.75rem;
+    top: 0.5rem;
+}
+.buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.profile-icon{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+.profile-text{
+    text-align: center;
+}
+.wallet{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.wallet-icon{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+.wallet-text{
+    text-align: center;
+}
+.cart{
+    position: relative;
+}
+.icon-cart{
+    position: absolute;
+    top: 0.05rem;
+    left: 0.7rem;
+}
+.cart-text{
+    text-align: center;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    left: 60px;
+    width: fit-content;
+    background-color: white;
+}
+#banner{
+    width: 29.5cm;
+}
+#banner2{
+    width: 29cm;
+}
+.banner-fw{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.banner-text{
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.7rem;
+    font-weight: 300;
+}
+.best-selling{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 31px;
+    top: 15px;
+    left: 60px;
+}
+.title{
+    display: flex;
+    gap: 20px;
+}
+.txt{
+    font-family: "ROBOTO", sans-serif;
+    color: #4f4f4f;
+    font-size: 20px;
+    font-weight: 400;
+}
+.line{
+    left: 2.5rem;
+    top: 0.5rem;
+}
+#line{
+    width: 25cm;
+}
+#line2{
+    width: 14.2cm;
+}
+.items{
+    width: 30cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+    width: fit-content;
+    position: relative;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.rectangle{
+    position: absolute;
+    right: 10px;
+    left: -4px;
+    top: 162px;
+    width: fit-content;
+}
+.product-name{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    left: 12px;
+    top: 7px;
+    font-size: 12px;
+}
+.price{
+    position: absolute;
+    left: 12px;
+    font-family: "Roboto", sans-serif;
+    top: 35px;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+.rating{
+    position: absolute;
+    right: 35px;
+    top: 5.5px;
+}
+.button{
+    font-family: "Roboto", sans-serif;
+    color: #414040;
+    position: absolute;
+    right: 23px;
+    top: 31px;
+}
+.PS{
+    display: flex;
+    flex-direction: row;
+}
+.most-searched{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* gap: 31px; */
+    top: 15px;
+    left: 60px;
+}
+.pub{
+    position: relative;
+    width: fit-content;
+    width: 445px;
+    top: -0.8rem;
+}
+#pub{
+    height: 6.3cm;
+
+}
+.pub-frame{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+#pub-frame{
+    height: 5.5cm;
+    width: 9.9cm;
+
+}
+.pub-txt1{
+    position: absolute;
+    top: 7.8rem;
+    left: 2.5rem;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+.pub-txt2{
+    position: absolute;
+    top: 10.5rem;
+    left: 3.3rem;
+    color: #ffffff;
+    font-family: "sacramento", sans-serif;
+    font-size: 20px;
+}
+.items2{
+    width: 30cm;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 3cm;
+}
+.Brands{
+    width: fit-content;
+    background-color: #E9E9E9;
+}
+p{
+    color: #4f4f4f;
+    font-family: "Roboto", sans-serif;
+}
+label{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #4f4f4f;
+}
+input{
+    color: #4f4f4f;
+}
+#quantity{
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    width: 2.5rem;
+    height: 2.1rem;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: white;
+    color: #4f4f4f;
+    font-size: 10px;
+}
+#color{
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.5px;
+}
+#price{
+    display: flex;
+    width: 9rem;
+    justify-content: space-between;
+}

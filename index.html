@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-image">
+                <img src="./assets/images/11.png" alt="logo">
+            </div>
+            <div class="logo-title">
+                <span>
+                    Blue
+                </span>
+                Shop
+            </div>
+        </div>
+        <div class="search-bar">
+            <div class="search">
+                <div class="search"><input type="search" name="search" id="search1" placeholder="search"></div>
+            </div>
+            <div class="search-button">
+                <div class="bg-search">
+                    <img src="./assets/images/14.png" alt="bg-search">
+                </div>
+                <div class="search-icon">
+                    <img src="./assets/images/Search.png" alt="search-icon">
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="profile">
+                <div class="bg-profile">
+                    <img src="./assets/images/13.png" alt="bg-profile">
+                </div>
+                <div class="profile-icon">
+                    <img src="./assets/images/Profile.png" alt="icon-profile">
+                </div>
+                <div class="profile-text">
+                    Profile
+                </div>
+            </div>
+            <div class="wallet">
+                <div class="bg-wallet">
+                    <img src="./assets/images/13.png" alt="bg-wallet">
+                </div>
+                <div class="wallet-icon">
+                    <img src="./assets/images/Wallet.png" alt="icon-wallet">
+                </div>
+                <div class="wallet-text">
+                    Wallet
+                </div>
+            </div>
+            <div class="cart">
+                <div class="bg-cart">
+                    <img src="./assets/images/13.png" alt="bg-cart">
+                </div>
+                <div class="icon-cart">
+                    <img src="./assets/images/Buy.png" alt="icon-cart" id="iconcart">
+                </div>
+                <div class="cart-text">
+                    Cart
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="filters">
+            <div class="Brands">
+                <p>Brands</p>
+                <form action="">
+                    <input type="checkbox" id="montre1" name="montre1" value="Invicta">
+                    <label for="montre1"> Invicta</label><br>
+                    <input type="checkbox" id="montre2" name="montre2" value="Fossil">
+                    <label for="montre2"> Fossil</label><br>
+                    <input type="checkbox" id="montre3" name="montre3" value="Bulova">
+                    <label for="montre3"> Bulova</label><br>
+                    <input type="checkbox" id="montre4" name="montre4" value="Michael kors">
+                    <label for="montre4"> Michael kors</label><br>
+                    <input type="checkbox" id="montre5" name="montre5" value="GOLDEN HOURS">
+                    <label for="montre5"> GOLDEN HOURS</label><br>
+                    <input type="checkbox" id="montre6" name="montre6" value="Casio">
+                    <label for="montre6"> Casio</label><br>
+                </form>
+            </div>
+            <div class="Price">
+                <p>Price</p>
+                <form id="price" action="">
+                    <label for="quantity"></label>
+                    <input type="number" id="quantity" name="quantitymin" min="0" placeholder="$Min">
+                    <input type="number" id="quantity" name="quantitymax" min="0" placeholder="$Max">
+                    <button>Go</button>
+                </form>
+            </div>
+            <div class="Watch Band Color">
+                <p>Watch Band Color</p>
+                <form action="">
+                    <input type="color" id="color1" name="color" value="#000000">
+                    <input type="color" name="color2" id="color" value="#AAAAAA">
+                    <input type="color" name="color3" id="color" value="#FFFFFF">
+                    <input type="color" name="color4" id="color" value="#745220">
+                    <input type="color" name="color5" id="color" value="#989048">
+                    <input type="color" name="color6" id="color" value="#C80000">
+                    <input type="color" name="color7" id="color" value="#FFA3D4">
+                    <input type="color" name="color8" id="color" value="#FA8111">
+                    <input type="color" name="color9" id="color" value="#FFE927">
+                    <input type="color" name="color10" id="color" value="#26DD4E">
+                    <input type="color" name="color11" id="color" value="#3988FF">
+                    <input type="color" name="color12" id="color" value="#9000E8">
+                </form>
+            </div>
+            <div class="Watch Style">
+                <p>Watch Style</p>
+                <form action="">
+                    <input type="checkbox" id="style1" name="style1" value="Casual">
+                    <label for="style1">Casual</label><br>
+                    <input type="checkbox" id="style2" name="style2" value="Dress">
+                    <label for="style2">Dress</label><br>
+                    <input type="checkbox" id="style3" name="style3" value="Fashion">
+                    <label for="style3">Fashion</label><br>
+                    <input type="checkbox" id="style4" name="style4" value="Luxury">
+                    <label for="style4">Luxury</label><br>
+                    <input type="checkbox" id="style5" name="style5" value="Sport">
+                    <label for="style5">Sport</label><br>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <div class="banner-fw">
+                    <img id="banner2" src="./assets/images/Rectangle 36.png" alt="banner-framework">
+                </div>
+                <div class="bannerimg">
+                    <img id="banner" src="./assets/images/1.jpeg" alt="banner-img">
+                    <!--src:source, alt:alternative affichage si img n'est pas afficher-->
+                </div>
+                <div class="banner-text">
+                    SHINOLA'S BEST
+                </div>
+            </div>
+            <div class="best-selling">
+                <div class="title">
+                    <div class="txt">
+                        Best Selling
+                    </div>
+                    <div class="line">
+                        <img id="line" src="./assets/images/Line 1.png" alt="best-selling-line">
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="product">
+                        <img src="./assets/images/2.png" alt="MONTBLANC">
+                        <div class="rectangle">
+                            <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                            <div class="product-name">
+                                MONTBLANC
+                            </div>
+                            <div class="price">
+                                $10.600
+                            </div>
+                            <div class="rating">
+                                <img src="./assets/images/rate1.png" alt="rating">
+                            </div>
+                            <div class="add-cart">
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/3.png" alt="ORIENT">
+                        <div class="rectangle">
+                            <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                            <div class="product-name">
+                                ORIENT
+                            </div>
+                            <div class="price">
+                                $160
+                            </div>
+                            <div class="rating">
+                                <img src="./assets/images/rate 2.png" alt="rating">
+                            </div>
+                            <div class="add-cart">
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/4.png" alt="ROLEX">
+                        <div class="rectangle">
+                            <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                            <div class="product-name">
+                                ROLEX
+                            </div>
+                            <div class="price">
+                                $10.975
+                            </div>
+                            <div class="rating">
+                                <img src="./assets/images/rate1.png" alt="rating">
+                            </div>
+                            <div class="add-cart">
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/5.png" alt="SEIKO">
+                        <div class="rectangle">
+                            <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                            <div class="product-name">
+                                SEIKO
+                            </div>
+                            <div class="price">
+                                $140
+                            </div>
+                            <div class="rating">
+                                <img src="./assets/images/rate1.png" alt="rating">
+                            </div>
+                            <div class="add-cart">
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/6.png" alt="SWAROVSKI">
+                        <div class="rectangle">
+                            <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                            <div class="product-name">
+                                SWAROVSKI
+                            </div>
+                            <div class="price">
+                                $350
+                            </div>
+                            <div class="rating">
+                                <img src="./assets/images/rate 4.png" alt="rating">
+                            </div>
+                            <div class="add-cart">
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="PS">
+                <div class="most-searched">
+                    <div class="title">
+                        <div class="txt">
+                            Most Searched
+                        </div>
+                        <div class="line">
+                            <img id="line2" src="./assets/images/Line 2.png" alt="Most-searched-line">
+                        </div>
+                    </div>
+                    <div class="items2">
+                        <div class="product">
+                            <img src="./assets/images/7.png" alt="Apple Watch">
+                            <div class="rectangle">
+                                <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                                <div class="product-name">
+                                    Apple Watch
+                                </div>
+                                <div class="price">
+                                    $500
+                                </div>
+                                <div class="rating">
+                                    <img src="./assets/images/rate 3.png" alt="4.5/5">
+                                </div>
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/images/8.png" alt="CITIZEN">
+                            <div class="rectangle">
+                                <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                                <div class="product-name">
+                                    CITIZEN
+                                </div>
+                                <div class="price">
+                                    $420
+                                </div>
+                                <div class="rating">
+                                    <img src="./assets/images/rate (4).png" alt="2.5/5">
+                                </div>
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/images/9.png" alt="TISSOT">
+                            <div class="rectangle">
+                                <img src="./assets/images/Rectangle 30.png" alt="frame-product">
+                                <div class="product-name">
+                                    TISSOT
+                                </div>
+                                <div class="price">
+                                    $460
+                                </div>
+                                <div class="rating">
+                                    <img src="./assets/images/rate 3.png" alt="4.5/5">
+                                </div>
+                                <button type="button" class="button">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="pub">
+                            <img id="pub" src="./assets/images/10.png" alt="publicity">
+                            <div class="pub-frame">
+                                <img id="pub-frame" src="./assets/images/30.png" alt="frame">
+                            </div>
+                            <div class="pub-txt1">
+                                HUNTERS RACE
+                            </div>
+                            <div class="pub-txt2">
+                                for love
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
